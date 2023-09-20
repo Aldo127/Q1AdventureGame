@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Aldo/Title.unity
+    path: Assets/Community/UISTUFF/Title.unity
     guid: 4f648dd87d57b5442872e9ec8fe3ed1a
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity

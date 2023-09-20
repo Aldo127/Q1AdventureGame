@@ -21,12 +21,13 @@ public class PlayAnim : MonoBehaviour
             ani.SetBool("TRASH", true);
             //anim.Play("Laser");
         }
-        
-    //    if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
-    //    {
-    //        ani.SetBool("TRASH", true);
-    //        //anim.Play("Laser");
-    //    }
+
+        if (Input.GetKeyUp(KeyCode.E) && playerIsClose)
+        {
+            ani.SetBool("TRASH", false);
+            //anim.Play("Laser");
+        }
+
     }
     
         

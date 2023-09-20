@@ -8,16 +8,28 @@ public class PlayerMovement : MonoBehaviour
     float speedLimiter = 0.7f;
     public float inputHorizontal;
     public float inputVertical;
+    public SpriteRenderer sr;
 
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
     {
         inputHorizontal = Input.GetAxisRaw("Horizontal");
         inputVertical = Input.GetAxisRaw("Vertical");
+
+        if(Input.GetKeyDown("a"))
+        {
+            sr.flipX = true;
+        }
+
+        if (Input.GetKeyDown("d"))
+        {
+            sr.flipX = false;
+        }
     }
 
     private void FixedUpdate()

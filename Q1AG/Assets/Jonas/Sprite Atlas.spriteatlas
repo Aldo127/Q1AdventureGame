@@ -99,7 +99,12 @@ SpriteAtlas:
   - {fileID: -285633410256533800, guid: 2efc47891e886ce44b2e9785edf331de, type: 3}
   - {fileID: -2319240347195157845, guid: 2efc47891e886ce44b2e9785edf331de, type: 3}
   - {fileID: 1508861153073804652, guid: 2efc47891e886ce44b2e9785edf331de, type: 3}
-  - {fileID: 21300000, guid: c2cfae0d68e030448bc88a15c0726eee, type: 3}
+  - {fileID: 8145770697738668048, guid: c2cfae0d68e030448bc88a15c0726eee, type: 3}
+  - {fileID: -27833397183872868, guid: c2cfae0d68e030448bc88a15c0726eee, type: 3}
+  - {fileID: 2066188200344418693, guid: c2cfae0d68e030448bc88a15c0726eee, type: 3}
+  - {fileID: -5494983281948140313, guid: c2cfae0d68e030448bc88a15c0726eee, type: 3}
+  - {fileID: -1205901907193688744, guid: c2cfae0d68e030448bc88a15c0726eee, type: 3}
+  - {fileID: 6377005970767540294, guid: c2cfae0d68e030448bc88a15c0726eee, type: 3}
   m_PackedSpriteNamesToIndex:
   - Table_0
   - Table_1
@@ -147,7 +152,12 @@ SpriteAtlas:
   - WarehouseProps_2
   - WarehouseProps_1
   - WarehouseProps_0
-  - Crates
+  - Crates_2
+  - Crates_3
+  - Crates_0
+  - Crates_1
+  - Crates_4
+  - Crates_5
   m_RenderDataMap: {}
   m_Tag: Sprite Atlas
   m_IsVariant: 0

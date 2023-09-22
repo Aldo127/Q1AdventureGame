@@ -28,7 +28,8 @@ public class TitleScreen : MonoBehaviour
         Debug.Log("Quuit");
         Application.Quit();
     }
-    void Update()
+    public void Story()
     {
+        SceneManager.LoadScene("Story");
     }
 }

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Dylan/YouWin.unity
     guid: 8fdd0d45c554af34a93748a23d16e3d1
+  - enabled: 1
+    path: Assets/Dylan/Story.unity
+    guid: 03c6d717a1dd8e6498ac8db744bb560a
   m_configObjects: {}

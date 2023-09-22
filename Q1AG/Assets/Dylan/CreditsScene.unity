@@ -5431,7 +5431,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Jay Chung - Particle Maker, Credit Scene Maker, \n\n\nDylan Cantu - UI
     Programmer \n\n\nJonas Moceros - Level Desginer, Sprite Maker, Main Artist\n\n\nAldo
-    Guzman - Character Movement/Mechanics Programmer"
+    Guzman - Character Movement/Mechanics Programmer\n\nFont - aansa SDF"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d41f0e975e9449d4294ba755c6a3a38a, type: 2}
   m_sharedMaterial: {fileID: -6018775414066789216, guid: d41f0e975e9449d4294ba755c6a3a38a, type: 2}

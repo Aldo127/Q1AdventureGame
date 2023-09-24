@@ -4,6 +4,8 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
 
+    public Collectables c;
+
     public float walkSpeed = 5f;
     float speedLimiter = 0.7f;
     public float inputHorizontal;
@@ -66,6 +68,12 @@ public class PlayerMovement : MonoBehaviour
         if (other.CompareTag("BIN"))
         {
             playerIsClose = true;
+        }
+
+        if (other.CompareTag("Evidence"))
+        {
+            Destroy(other.gameObject);
+            c.evidenceCount++;
         }
     }
 

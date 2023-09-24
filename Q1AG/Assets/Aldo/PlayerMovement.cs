@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public float inputHorizontal;
     public float inputVertical;
     public SpriteRenderer sr;
+    public Sprite gooseDisguise;
+    public bool playerIsClose;
 
     private void Start()
     {
@@ -30,7 +32,16 @@ public class PlayerMovement : MonoBehaviour
         {
             sr.flipX = false;
         }
+
+        if (Input.GetKeyUp(KeyCode.E) && playerIsClose)
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = gooseDisguise;
+            Debug.Log("tag");
+        }
     }
+
+    
+ 
 
     private void FixedUpdate()
     {
@@ -47,6 +58,23 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             rb.velocity = new Vector2(0f, 0f);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("BIN"))
+        {
+            playerIsClose = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("BIN"))
+        {
+            playerIsClose = false;
+
         }
     }
 }

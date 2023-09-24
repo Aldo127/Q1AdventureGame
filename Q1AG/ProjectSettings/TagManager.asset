@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Box
   - key
+  - BIN
   layers:
   - Default
   - TransparentFX
